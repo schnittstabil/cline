@@ -1,0 +1,16 @@
+{
+	"name": "Cline",
+	"version": "0.1.0",
+	"description": "Content-Disposition Inliner",
+	"manifest_version": 2,
+	"homepage_url": "https://github.com/schnittstabil/cline",
+	"background": {
+		"scripts": ["cline_bg.js"],
+		"persistent": true
+	},
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"<all_urls>"
+	]
+}
